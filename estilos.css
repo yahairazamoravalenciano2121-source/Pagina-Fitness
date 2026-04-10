@@ -1,0 +1,218 @@
+body{
+
+font-family: 'Segoe UI', Arial;
+background:#eef2f3;
+margin:0;
+color:#333;
+
+}
+
+/* MENU */
+
+nav{
+
+background:#1f3a5f;
+
+}
+
+.menu{
+
+display:flex;
+justify-content:center;
+list-style:none;
+padding:15px;
+gap:25px;
+
+}
+
+.menu a{
+
+color:white;
+text-decoration:none;
+font-weight:bold;
+
+}
+
+/* ===== EFECTO HOVER EN MENÚ ===== */
+.menu a{
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    background-color: #1abc9c;
+    color: white;
+}
+
+
+/* SECCIONES */
+
+.seccion{
+
+background:white;
+margin:30px auto;
+padding:25px;
+width:85%;
+border-radius:10px;
+box-shadow:0px 4px 10px rgba(56, 15, 193, 0.851);
+
+/* ===== EFECTO HOVER EN SECCIONES ===== */
+.seccion:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+}
+
+}
+
+
+/* TITULOS */
+
+h1{
+
+text-align:center;
+color:#1f3a5f;
+
+}
+
+h2{
+
+color:#1abc9c;
+
+}
+
+
+/* IMAGEN */
+
+img{
+
+display:block;
+margin:auto;
+border-radius:10px;
+box-shadow:0px 4px 10px rgba(56, 15, 193, 0.851);
+
+}
+
+
+
+
+/* PARRAFOS */
+
+p{
+
+text-align:justify;
+line-height:1.6;
+
+}
+
+
+/* TABLAS */
+
+table{
+
+width:100%;
+margin-top:15px;
+border-collapse:collapse;
+
+}
+
+th{
+
+background:#1f3a5f;
+color:white;
+padding:10px;
+
+}
+
+td{
+
+padding:10px;
+border:1px solid #ccc;
+text-align:center;
+
+}
+
+/* ===== EFECTO TABLAS ===== */
+tr:hover{
+    background-color: #f2f2f2;
+}
+
+/* INPUTS */
+
+input, select, textarea{
+
+width:100%;
+padding:8px;
+margin-top:5px;
+
+}
+
+
+/* BOTONES */
+
+button{
+
+background:#1abc9c;
+color:white;
+border:none;
+padding:10px;
+cursor:pointer;
+margin-top:10px;
+
+}
+
+button:hover{
+
+background:#16a085;
+
+}
+
+
+/* BOTON ARRIBA */
+
+.boton-arriba{
+
+position:fixed;
+bottom:20px;
+right:20px;
+background:#1abc9c;
+color:white;
+padding:12px;
+border-radius:50%;
+text-decoration:none;
+
+}
+.boton-arriba:hover{
+    transform: scale(1.2);
+}
+.seccion{
+line-height:1.7;
+font-size:16px;
+}
+
+/* Mejorar inputs */
+input, textarea, select {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+/* Efecto al hacer clic */
+input:focus, textarea:focus {
+    border-color: #1abc9c;
+    box-shadow: 0 0 5px rgba(26,188,156,0.5);
+}
+
+/* Botones más modernos */
+button {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #16a085;
+}
